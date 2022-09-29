@@ -6,16 +6,29 @@ Here, states 1 and 2 are our initial states and state 7 and state 8 are our fina
 
 Search Cost: How long the agent takes to come up with the solution.
 Path cost: How expensive each action in the solution are. By considering the above factors, the agent can also be classifies as a utility based agent.'''
-n=int(input("Enter the number of rooms:")) for i in range(n): a=str(input("Enter where the location is:")) print("The vaccum cleaner is in location-"+a) if(a==a): b=input("Enter d if the location is dirt- Enter c if the location cleaned:") if(b=='d'): print("The location-"+a+" is dirty") print("Suck the dirt") print("The dirt is cleaned") print("Now move to right")
+n=int(input("Enter the number of rooms:"))
+for i in range(n):
+  a=str(input("Enter where the location is:"))
+  print("The vaccum cleaner is in location-"+a)
+  if(a==a):
+    b=input("Enter d if the location is dirt- Enter c if the location cleaned:")
+    if(b=='d'):
+      print("The location-"+a+" is dirty")
+      print("Suck the dirt")
+      print("The dirt is cleaned")
+      print("Now move to right")
+    
+    if(b=='c'):
+        print("The vaccum cleaner is in location"+a)
+        print("The location "+a+ " is cleaned")
+        print("Move to left")
 
-if(b=='c'):
-    print("The vaccum cleaner is in location"+a)
-    print("The location "+a+ " is cleaned")
-    print("Move to left")
+    else:
+      print("The location is cleaned")
+  else:
+    print("Give the correct location")
 
-else:
-  print("The location is cleaned")
-else: print("Give the correct location")
+
 
 ''' Output:
 
