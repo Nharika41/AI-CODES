@@ -1,5 +1,3 @@
-# AI-CODES
-#VACCUM CLEANER AGENT
 n=int(input("Enter the number of rooms:"))
 for i in range(n):
   a=str(input("Enter where the location is:"))
