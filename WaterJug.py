@@ -53,18 +53,7 @@ for i in range(9):
         
     '''A Water Jug Problem: You are given two jugs, a 8-litre one and a 6-litre one, a pump which has unlimited water which you can use to fill the jug, and the ground on which water may be poured. Neither jug has any measuring markings on it. How can you get exactly 4 litre of water in the 8-gallon jug? 
  '''  
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        print("A is a 8 Gallons jug")
+print("A is a 8 Gallons jug")
 print("B is a 6 Gallons jug")
 A=[]
 B=[]
